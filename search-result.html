@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>BOWA</title>
+        <meta name="description" content="Description for BOWA" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <link href="assets/css/vendors.0f97d381a3d88055ef1e.css" rel="stylesheet" />
+        <link href="assets/css/app.65fde4b6e1b58d76c59d.css" rel="stylesheet" />
+    </head>
+
+    <body class="search-result-page">
+
+        <div class="wrapper">
+
+
+            <!-- HEADER --> 
+            <header class="header">
+
+                <div class="container">
+
+                    <div class="header__content">
+
+                        <button class="content__logo_mobile open-mobile-menu">
+                            <svg width="25" height="20"><use xlink:href="assets/img/svg-icons/icon-menu.svg#icon-menu"></use></svg>
+                        </button>
+
+                        <a class="content__logo" href="#">
+                            <img src="assets/img/logo-new.png"/></a>
+
+                        <nav class="header__navigation">
+
+                            <ul class="navigation__list">
+                                <li class="list__item list__item_product">
+                                    <span>Продукты</span><svg width="10" height="8"><use xlink:href="assets/img/svg-icons/icon-arrow-down.svg#icon-arrow-down"></use></svg>
+                                </li>
+
+                                <li class="list__item list__item_application">
+                                    <span>Применение</span><svg width="10" height="8"><use xlink:href="assets/img/svg-icons/icon-arrow-down.svg#icon-arrow-down"></use></svg>
+                                </li>
+
+                                <li class="list__item list__item_support"> <span>Поддержка</span><svg width="10" height="8"><use xlink:href="assets/img/svg-icons/icon-arrow-down.svg#icon-arrow-down"></use></svg></li>
+                                <li class="list__item">Мероприятия</li>
+                                <li class="list__item">Компания</li>
+                                <li class="list__item">Контакты</li>
+                            </ul>
+                        </nav>
+
+                        <div class="header__buttons">
+
+                            <button class="header__buttons_basket">
+                                <svg width="30" height="30"><use xlink:href="assets/img/svg-icons/icon-basket.svg#icon-basket"></use></svg>
+                            </button>
+
+                            <button class="header__buttons_search">
+                                <svg width="22" height="22"><use xlink:href="assets/img/svg-icons/icon-search.svg#icon-search"></use></svg>
+                            </button>
+
+                            <button class="header__buttons_phone">
+                                <svg width="22" height="22"><use xlink:href="assets/img/svg-icons/icon-phone.svg#icon-phone"></use></svg>
+                            </button>
+
+                        </div>
+
+                        <button class="connect-button">Связаться с нами</button>
+
+                    </div>
+
+                </div>
+
+                <!-- popup ПОИСК -->
+                <div class="header-menu__desktop-search">
+                    <input type="text" placeholder="Поиск по сайту">
+                    <button class="header-menu__desktop-search-button" ></button>
+                </div>
+
+                <!-- ВЫПАДАЮЩЕЕ МЕНЮ ДЛЯ МОБИЛКИ -->
+                <div class="header-menu-mobile hidden">
+                    
+                    <form class="header-menu-mobile__search">
+                        <input class="header-menu-mobile__search-input" type="text" name="search" id="search" placeholder="Поиск по сайту">
+                        <button class="header-menu-mobile__search-button"></button>
+                    </form>
+
+                    <ul class="header-menu-mobile__list">
+                        <li class="header-menu-mobile__list-item">
+                            <a>Продукты</a>
+
+                            <ul class="header-menu-mobile__sublist">
+                                <li><a href="#">Электрохирургические системы</a></li>
+                                <li><a href="#">LOTUS, ультразвуковая хирургическая система</a></li>
+                                <li><a href="#">Печатные материалы</a></li>
+                                <li><a href="#">ARC PLUS, аргоноплазменная хирургия</a></li>
+                                <li><a href="#">Морцелляция </a></li>
+                                <li><a href="#">Отведение и фильтрация дыма</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="header-menu-mobile__list-item">
+                            <a>Применение</a>
+
+                            <ul class="header-menu-mobile__sublist">
+                                <li><a href="#">Общая хирургия</a></li>
+                                <li><a href="#">Кардиохирургия</a></li>
+                                <li><a href="#">Детская хирургия</a></li>
+                                <li><a href="#">Травматология и ортопедическая хирургия</a></li>
+                                <li><a href="#">Пластическая хирургия</a></li>
+                                <li><a href="#">Торакальная хирургия</a></li>
+                                <li><a href="#">Гинекология</a></li>
+                                <li><a href="#">Висцеральная хирургия</a></li>
+                                <li><a href="#">Отоларингология</a></li>
+                                <li><a href="#">Нейрохирургия</a></li>
+                                <li><a href="#">Дерматология</a></li>
+                                <li><a href="#">Стоматология и челюстно-лицевая хирургия</a></li>
+                                <li><a href="#">Урология</a></li>
+                                <li><a href="#">Гастроэнтерология</a></li>
+                                <li><a href="#">Пульмонология</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li class="header-menu-mobile__list-item">
+                            <a href="#">Поддержка</a>
+
+                            <ul class="header-menu-mobile__sublist">
+                                <li><a href="#">Техническое обслуживание и сервис</a></li>
+                                <li><a href="#">Конфигуратор онлайн</a></li>
+                                <li><a href="#">Медиатека</a></li>
+                                <li><a href="#">Часто задаваемые вопросы</a></li>
+                                <li><a href="#">Задайте Ваш вопрос </a></li>
+                                <li><a href="#">Закажите обратный звонок</a></li>
+                            </ul>
+
+                        </li>
+                        <li class="header-menu-mobile__list-item">
+                            <a href="#">Мероприятия</a>
+                        </li>
+                        <li class="header-menu-mobile__list-item">
+                            <a href="#">Компания</a>
+                        </li>
+                        <li class="header-menu-mobile__list-item">
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+
+
+                    
+
+                </div>
+
+
+                <!-- ВЫПАДАЮЩЕЕ МЕНЮ ПРОДУКТЫ -->
+                <div class="header__product-dropdown hidden">
+                    <div class="product-dropdown_container">
+                        <div class="product-dropdown__left">
+                            <ul>
+                                <li><a href="#">Электрохирургические системы</a></li>
+                                <li><a href="#">LOTUS, ультразвуковая хирургическая система</a></li>
+                                <li><a href="#">Печатные материалы</a></li>
+                            </ul>
+                        </div>
+                        <div class="product-dropdown__right">
+                            <ul>
+                                <li><a href="#">ARC PLUS, аргоноплазменная хирургия</a></li>
+                                <li><a href="#">Морцелляция</a></li>
+                                <li><a href="#">Отведение и фильтрация дыма</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ВЫПАДАЮЩЕЕ МЕНЮ ПРИМЕНЕНИЕ -->
+                <div class="header__application-dropdown hidden">
+
+                    
+                    <div class="application-dropdown_container">
+                        <div class="application-dropdown__left">
+                            <ul>
+                                <li>
+                                    <a>
+                                        <svg width="40" height="35"><use xlink:href="assets/img/application/general.svg#general"></use></svg>
+                                        <p>Общая хирургия</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="30" height="26"><use xlink:href="assets/img/application/cardiac.svg#cardiac"></use></svg>
+                                        <p>Кардиохирургия</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="30" height="35"><use xlink:href="assets/img/application/pediatric.svg#pediatric"></use></svg>
+                                        <p>Детская хирургия</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="20" height="35"><use xlink:href="assets/img/application/traumatology.svg#traumatology"></use></svg>
+                                        <p>
+                                            Травматология и<br />
+                                            ортопедическая хирургия
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="27" height="35"><use xlink:href="assets/img/application/plastic.svg#plastic"></use></svg>
+                                        <p>
+                                            Пластическая и<br />
+                                            эстетическая хирургия
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="application-dropdown__center">
+                            <ul>
+                                <li>
+                                    <a>
+                                        <svg width="40" height="29"><use xlink:href="assets/img/application/thoracic.svg#thoracic"></use></svg>
+                                        <p>Торакальная хирургия</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="30" height="26"><use xlink:href="assets/img/application/gynecology.svg#gynecology"></use></svg>
+                                        <p>Гинекология</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="30" height="35"><use xlink:href="assets/img/application/visceral.svg#visceral"></use></svg>
+                                        <p>Висцеральная хирургия</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="20" height="35"><use xlink:href="assets/img/application/otolaryngology.svg#otolaryngology"></use></svg>
+                                        <p>Отоларингология</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="27" height="30"><use xlink:href="assets/img/application/neurosurgery.svg#neurosurgery"></use></svg>
+                                        <p>Нейрохирургия</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="application-dropdown__right">
+                            <ul>
+                                <li>
+                                    <a>
+                                        <svg width="40" height="29"><use xlink:href="assets/img/application/dermatology.svg#dermatology"></use></svg>
+                                        <p>Дерматология</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="30" height="26"><use xlink:href="assets/img/application/dentistry.svg#dentistry"></use></svg>
+                                        <p>
+                                            Стоматология и<br />
+                                            челюстно-лицевая хирургия
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="30" height="35"><use xlink:href="assets/img/application/urology.svg#urology"></use></svg>
+                                        <p>Урология</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="20" height="35"><use xlink:href="assets/img/application/gastroenterology.svg#gastroenterology"></use></svg>
+                                        <p>Гастроэнтерология</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <svg width="27" height="30"><use xlink:href="assets/img/application/pulmonology.svg#pulmonology"></use></svg>
+                                        <p>Пульмонология</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ВЫПАДАЮЩЕЕ МЕНЮ ПОДДЕРЖКА -->
+                <div class="header__support-dropdown hidden">
+                    <div class="support-dropdown_container">
+
+                        <div class="support-dropdown__left">
+                            <ul>
+                                <li><a href="">Техническое обслуживание и сервис</a></li>
+                                <li><a href="">Конфигуратор онлайн</a></li>
+                                <li><a href="">Медиатека</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="support-dropdown__right">
+                            <ul>
+                                <li><a href="#">Часто задаваемые вопросы</a></li>
+                                <li><a href="#">Задайте Ваш вопрос</a></li>
+                                <li><a href="#">Закажите обратный звонок</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </header>
+
+
+            <div class="content-wrapper" style="background: #333333;">
+
+                <main class="search-result-page_main">
+
+                    <div class="bread-crumbs">
+                        <div class="container">
+                            <ul class="breadcrumb__list">
+                                <li class="breadcrumb__item"><a class="breadcrumb__link" href="#" title="Главная /">Главная /</a></li>
+                                <li class="breadcrumb__item"><span class="breadcrumb__link-current">Поиск</span></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="container">
+
+                        <section class="search-result-page__search">
+                            <div class="search__input-with-icon">
+                                <input class="search__input" placeholder="Поиск" /><svg class="search-result-page__search-icon" width="20" height="20"><use xlink:href="assets/img/svg-icons/icon-search.svg#icon-search"></use></svg>
+                            </div>
+                            <p class="search-result-page__search-desc">По Вашему запросу найдено <span class="font-bold">120</span> товаров</p>
+                        </section>
+
+                        <section class="search-result-page__products">
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC.png" />
+                                    <h2>ARC PLUS для ARC 400 / 350</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/BRIZZER.png" />
+                                    <h2>BiZZER Stevens</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC-PLUS-filters.png" />
+                                    <h2>ARC PLUS фильтры, одноразовые, стерильные (уп. 50 шт.)</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC.png" />
+                                    <h2>ARC PLUS для ARC 400 / 350</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/BRIZZER.png" />
+                                    <h2>BiZZER Stevens</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC-PLUS-filters.png" />
+                                    <h2>ARC PLUS фильтры, одноразовые, стерильные (уп. 50 шт.)</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC.png" />
+                                    <h2>ARC PLUS для ARC 400 / 350</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/BRIZZER.png" />
+                                    <h2>BiZZER Stevens</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC-PLUS-filters.png" />
+                                    <h2>ARC PLUS фильтры, одноразовые, стерильные (уп. 50 шт.)</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC.png" />
+                                    <h2>ARC PLUS для ARC 400 / 350</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/BRIZZER.png" />
+                                    <h2>BiZZER Stevens</h2>
+                                </div>
+                            </article>
+                            <article class="products__item">
+                                <div class="products__item_content">
+                                    <img src="assets/img/products/ARC-PLUS-filters.png" />
+                                    <h2>ARC PLUS фильтры, одноразовые, стерильные (уп. 50 шт.)</h2>
+                                </div>
+                            </article>
+                        </section>
+                        
+                        <ul class="pagination">
+                            <li><a href="#">Назад</a></li>
+                            <li><a class="active-page" href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li>
+                                <a href="#">
+                                    Вперед<svg><use xlink:href="assets/img/svg-icons/icon-arrow-right.svg#icon-arrow-right"></use></svg>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </main>
+
+            </div>
+
+
+           <!-- FOOTER -->
+           <footer class="footer">
+
+            <div class="container">
+
+                <!-- <a class="content__logo" href="#"><img src="assets/img/logo-new.png" /></a> -->
+
+                <div class="footer__content">
+
+                    <div class="footer__content_addresses">
+
+                        <article class="address__item">
+                            <img src="assets/img/logo-medical-white.png" alt="">
+                            <h3>
+                                Представительство в 
+                                <br>
+                                Российской Федерации
+                            </h3>
+                            <p>125040 Москва</p>
+                            <p>Ленинградский проспект, д. 24, стр. 3</p>
+                            <p><a href="tel:+74959805313">+7 (495) 980-53-13</a></p>
+                            <p>
+                                <a href="mailto:office.russia@bowa-medical.com"><span class="success-color">office.russia@bowa-medical.com</span></a>
+                            </p>
+                        </article>
+                        <article class="address__item">
+
+                            <img src="assets/img/logo-medical-white.png" alt="">
+                            <h3>
+                                Представительство 
+                                <br>
+                                в Украине
+                            </h3>
+                            <p>02081 Київ</p>
+                            <p>Проспект Григоренка, д. 22/20, оф. 248</p>
+                            <p><a href="tel:+380443399100">+380 (44) 33-99-100</a></p>
+                            <p>
+                                <a href="mailto:office.ukraine@bowa-medical.com"><span class="success-color">office.ukraine@bowa-medical.com</span></a>
+                            </p>
+                        </article>
+                        <article class="address__item">
+                            <img src="assets/img/logo-medical-white.png" alt="">
+                            <h3>
+                                Представительство в
+                                <br>
+                                Казахстане и Средней Азии
+                                </h3>
+                            <p>050004 Алматы</p>
+                            <p>Площадь Республики 13, офис 510/ 511</p>
+                            <p><a href="tel:+77772663947">+7 (777) 266-39-47</a></p>
+                            <p>
+                                <a href="mailto:office.kazakhstan@bowa-medical.com"><span class="success-color">office.kazakhstan@bowa-medical.com</span></a>
+                            </p>
+                        </article>
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+            </footer>
+
+            <div class="footer-bottom">
+                <div class="container">
+
+                    <div class="footer__content_links">
+                        <!-- <div class="links__item footer__distributor"><p>Дистрибьюторам</p></div> -->
+                        <div class="links__item">
+                            <p>Подпишитесь на мероприятия</p>
+                            <div class="links__item_mail">
+                                <div class="input-neumor__light_wrapper">
+                                    <div class="form"><input class="input-neumor_dark" placeholder="Ваш E-mail" /><label class="input-slide"></label></div>
+                                </div>
+                                <button class="arrow-button_simple">
+                                    <div class="arrow-button__arrow"><span></span> <i></i></div>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="links__item footer__follow">
+                            <p>Свяжитесь с нами</p>
+
+                            <div class="links__item_social">
+
+                                <div class="links__item_social-wrap">
+                                    <a href="https://www.facebook.com/bowamedical/">
+                                        <svg><use xlink:href="assets/img/svg-icons/icon-facebook.svg#icon-facebook"></use></svg>
+                                    </a>
+                                    
+                                    <a href="mailto:office.russia@bowa-medical.com">
+                                        <svg><use xlink:href="assets/img/svg-icons/icon-mail.svg#icon-mail"></use></svg>
+                                    </a>
+
+                                    <a href="#">
+                                        <svg><use xlink:href="assets/img/svg-icons/icon-whatsapp.svg#icon-whatsapp"></use></svg>
+                                        
+                                    </a>
+
+                                    <a href="tg://resolve?domain=BOWA">
+
+                                        <svg><use xlink:href="assets/img/svg-icons/icon-telegram.svg#icon-telegram"></use></svg>
+
+                                       
+                                    </a>
+
+                                    <a href="#">
+
+                                        <svg><use xlink:href="assets/img/svg-icons/icon-video.svg#icon-video"></use></svg>
+
+                                    </a>
+
+                                    <a href="#">
+
+                                        <svg><use xlink:href="assets/img/svg-icons/icon-signal.svg#icon-signal"></use></svg>
+
+                                    </a>
+
+
+                                </div>
+                                
+                                
+
+                                <button class="connect-button">Связаться</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="footer__content_copyright">
+
+                        <p class="font-bold">2021 BOWA EURASIA</p>
+
+                        <div class="copyright__personal_data">
+                            <p><a href="#">Политика обработки персональных данных</a></p>
+                            <p><a href="#">Правовая информация</a></p>
+                        </div>
+
+                        <div class="copyright__logo">
+                            <a href="https://www.nologostudio.ru/">
+                                <svg class="footer__logo" width="151" height="39"><use xlink:href="assets/img/svg-icons/icon-NLS.svg#icon-NLS"></use></svg>
+                            </a>
+                        </div>
+
+                        <!-- <p class="footer__logo_mobile">Дизайн и разработка: 
+                            <a href="https://www.nologostudio.ru/">nologostudio.ru</a>
+                        </p> -->
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <script src="assets/js/vendors.4ebbc9fba654e834f40f.js"></script>
+
+        <script src="assets/js/app.7af6ec65f685bb65f8be.js"></script>
+
+    </body>
+
+</html>
